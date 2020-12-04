@@ -12,46 +12,57 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet"  href="css/bootstrap.css">
 
+	<!-- Link Font Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Link Font Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
 	<!-- CSS Tag -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<!-- Header -->
+	<div class="logo">
+   		<img src="images/4.png" width="70" height="70" class="d-inline-block align-top" alt="" loading="lazy" style="margin-top: -10px;">
+   			<span style="font-family: Roboto; font-size: 30px; font-weight: bold; color:#1F3C88">Kepoin Kampus</span> 
+   		</a>
+	</div>
+
 	<div>
-		<nav class="navbar navbar-light bg-light">
-  			<a class="navbar-brand" href="#">
-   			<img src="images/4.png" width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy">Kepoin Kampus</a>
-		</nav>
+		<img src="images/ilustrasi.png" width="450" height="450" style="float: right; margin-right: 150px; margin-top: 50px">
 	</div>
 
 	<!-- Form -->
 	<div id="form">
 		<form>
-			<h2>Daftar</h2>
+			<p><span style="opacity: 0%">y</span></p>
+			<h2 style="font-weight: bold; color: #F6F5F5; margin-top: 10; margin-left: 10%; margin-top: 10px">Daftar</h2>
 			<table >
 				<tr>
-					<td><input type="text" name="username" placeholder="Username"></td>
+					<td><input type="text" name="username" placeholder="Username" class="isi-form"></td>
 				</tr>
 				<tr>
-					<td><input type="text" name="username" placeholder="Email"></td>
+					<td><input type="text" name="username" placeholder="Email" class="isi-form"></td>
 				</tr>
 				<tr>
-					<td><input type="Password" name="username" placeholder="Password"></td>
+					<td><input type="Password" name="username" placeholder="Password" class="isi-form"></td>
 				</tr>
 				<tr>
-					<td><input type="Password" name="username" placeholder="Konfirmasi Password"></td>
+					<td><input type="Password" name="username" placeholder="Konfirmasi Password" class="isi-form"></td>
 				</tr>
 				<tr>
-					<td><input type="radio" name="">Mahasiswa</td>
-					<td><input type="radio" name="">Alumni</td>
+					<td><input type="radio" name=""><span style="font-weight: bold; color:#F6F5F5; font-family: Roboto Mono; margin-left: 10px">Mahasiswa</span></td>
+					<td><input type="radio" name=""><span style="font-weight: bold; color:#F6F5F5; font-family: Roboto Mono; margin-left: 10px"> Alumni </span></td>
 				</tr>
 				<tr>
-					<td><input type="text" name="" placeholder="instansi"></td>
-					<td><button>KTM</button></td>
+					<td><input type="text" name="" placeholder="instansi" class="isi-form"></td>
+					<td><button class="isi-form" style="margin-left: 20px"><span style="color: #757575">KTM</span></button></td>
 				</tr>
 				<tr></tr>
 				<tr>
-					<td><button>Daftar</button></td>
+					<td><button class="isi-form" style="padding-right: 50px; padding-left: 50px; color: #F6F5F5; background-color: #1F3C88">Daftar</button></td>
 				</tr>
 			</table>
 			
