@@ -1,0 +1,49 @@
+.navbar{
+	background-color: #1F3C88;
+}
+
+#teks{
+	color: white;
+}
+
+.kolomKiri{
+	position: absolute;
+	margin-top: 5%;
+	width: 20%;
+	height: 100%;	 
+
+	background: #1F3C88;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.gambarProfil{
+	float: left; 
+	width: 30%;
+	height: 10%;
+}
+
+.nav{
+	margin-top: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: #FBE99E;
+	color: #1F3C88;
+}
+
+.kolomKanan{
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.card{
+	margin-top: 5%;
+	width: 80%;
+}
+
+p{
+	margin: 5%;
+	font-size: 1vw;
+}
